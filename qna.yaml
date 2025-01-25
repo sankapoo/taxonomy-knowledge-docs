@@ -1,0 +1,90 @@
+version: 3
+domain: "American Football - University of Texas Longhorns"
+created_by: sankapoo
+seed_examples:
+  - context: |
+        The Texas Longhorns football program represents the University of Texas at Austin in American football. They compete in the NCAA Division I Football Bowl Subdivision as a member of the Southeastern Conference (SEC). Their home games are played at Darrell K Royal-Texas Memorial Stadium in Austin, Texas.
+    questions_and_answers:
+      - question: |
+           Which university does the Texas Longhorns football program represent?
+        answer: |
+           The Texas Longhorns football program represents the University of Texas at Austin.
+      - question: |
+           In which conference does the Texas Longhorns football team compete?
+        answer: |
+           The Texas Longhorns football team competes in the Southeastern Conference (SEC).
+      - question: |
+           Where do the Texas Longhorns play their home games?
+        answer: |
+           The Texas Longhorns play their home games at Darrell K Royal Texas Memorial Stadium in Austin, Texas.
+  - context: |
+        The Texas Longhorns have achieved over 900 wins and an all-time win-loss percentage of .704. They rank fourth in all-time wins and have claimed 4 national championships and 33 conference championships.
+    questions_and_answers:
+      - question: |
+           How many wins has the Texas Longhorns football program achieved?
+        answer: |
+           The Texas Longhorns football program has achieved over 900 wins.
+      - question: |
+           How many national championships have the Texas Longhorns claimed?
+        answer: |
+           The Texas Longhorns have claimed 4 national championships.
+      - question: |
+           What is the all-time win-loss percentage of the Texas Longhorns?
+        answer: |
+           The all-time win-loss percentage of the Texas Longhorns is .704.
+  - context: |
+        The Longhorns have been affiliated with multiple conferences, including the Southwest Conference (1915-1995) and the Big 12 Conference (1996-2023). They will join the Southeastern Conference (SEC) in 2024.
+    questions_and_answers:
+      - question: |
+           When was the Texas Longhorns football program part of the Southwest Conference?
+        answer: |
+           The Texas Longhorns football program was part of the Southwest Conference from 1915 to 1995.
+      - question: |
+           When will the Texas Longhorns join the Southeastern Conference?
+        answer: |
+           The Texas Longhorns will join the Southeastern Conference in 2024.
+      - question: |
+           Which conference was Texas affiliated with before joining the SEC?
+        answer: |
+           Texas was affiliated with the Big 12 Conference before joining the SEC.
+  - context: |
+        Darrell K Royal-Texas Memorial Stadium has been the home of the Longhorns since 1924. The stadium's capacity is 100,119, making it one of the largest in the NCAA.
+    questions_and_answers:
+      - question: |
+           When did Darrell K Royal-Texas Memorial Stadium become the home of the Texas Longhorns?
+        answer: |
+           Darrell K Royal-Texas Memorial Stadium became the home of the Texas Longhorns in 1924.
+      - question: |
+           What is the seating capacity of Darrell K Royal-Texas Memorial Stadium?
+        answer: |
+           The seating capacity of Darrell K Royal-Texas Memorial Stadium is 100,119.
+      - question: |
+           Where is Darrell K Royal-Texas Memorial Stadium located?
+        answer: |
+           Darrell K Royal-Texas Memorial Stadium is located in Austin, Texas.
+  - context: |
+        The Texas Longhorns have produced two Heisman Trophy winners: Earl Campbell in 1977 and Ricky Williams in 1998.
+    questions_and_answers:
+      - question: |
+           Who were the two Heisman Trophy winners from the Texas Longhorns?
+        answer: |
+           The two Heisman Trophy winners from the Texas Longhorns are Earl Campbell in 1977 and Ricky Williams in 1998.
+      - question: |
+           When did Earl Campbell win the Heisman Trophy?
+        answer: |
+           Earl Campbell won the Heisman Trophy in 1977.
+      - question: |
+           In which year did Ricky Williams win the Heisman Trophy?
+        answer: |
+           Ricky Williams won the Heisman Trophy in 1998.
+document_outline: |
+  This document outlines the history, achievements, and notable details of the Texas Longhorns football program.
+document:
+  repo: https://github.com/sankapoo/taxonomy-knowledge-docs.git
+  commit: 9279e42e2b03c80093b5fd43b7ce47ee83225cbf
+  patterns:
+    - Texas_Longhorns_Football.md
+    - Texas_Longhorns_Football.pdf
+    - "*.md"
+    - "*.pdf"
+    - "sports/*.md"
